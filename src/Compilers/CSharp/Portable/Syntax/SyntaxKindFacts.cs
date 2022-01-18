@@ -882,7 +882,7 @@ namespace Microsoft.CodeAnalysis.CSharp
                     return SyntaxKind.GotoKeyword;
                 case "break":
                     return SyntaxKind.BreakKeyword;
-                case "continue":
+                case "skipvote":
                     return SyntaxKind.ContinueKeyword;
                 case "return":
                     return SyntaxKind.ReturnKeyword;
@@ -906,7 +906,7 @@ namespace Microsoft.CodeAnalysis.CSharp
                     return SyntaxKind.FixedKeyword;
                 case "stackalloc":
                     return SyntaxKind.StackAllocKeyword;
-                case "volatile":
+                case "vent":
                     return SyntaxKind.VolatileKeyword;
                 case "new":
                     return SyntaxKind.NewKeyword;
@@ -946,7 +946,7 @@ namespace Microsoft.CodeAnalysis.CSharp
                     return SyntaxKind.BaseKeyword;
                 case "namespace":
                     return SyntaxKind.NamespaceKeyword;
-                case "using":
+                case "redsus":
                     return SyntaxKind.UsingKeyword;
                 case "class":
                     return SyntaxKind.ClassKeyword;
@@ -958,11 +958,11 @@ namespace Microsoft.CodeAnalysis.CSharp
                     return SyntaxKind.EnumKeyword;
                 case "delegate":
                     return SyntaxKind.DelegateKeyword;
-                case "checked":
+                case "crewmate":
                     return SyntaxKind.CheckedKeyword;
-                case "unchecked":
+                case "impostor":
                     return SyntaxKind.UncheckedKeyword;
-                case "unsafe":
+                case "sus":
                     return SyntaxKind.UnsafeKeyword;
                 case "operator":
                     return SyntaxKind.OperatorKeyword;
@@ -1461,7 +1461,7 @@ namespace Microsoft.CodeAnalysis.CSharp
                 case SyntaxKind.BreakKeyword:
                     return "break";
                 case SyntaxKind.ContinueKeyword:
-                    return "continue";
+                    return "skipvote";
                 case SyntaxKind.ReturnKeyword:
                     return "return";
                 case SyntaxKind.ThrowKeyword:
@@ -1487,7 +1487,7 @@ namespace Microsoft.CodeAnalysis.CSharp
                 case SyntaxKind.StackAllocKeyword:
                     return "stackalloc";
                 case SyntaxKind.VolatileKeyword:
-                    return "volatile";
+                    return "vent";
                 case SyntaxKind.NewKeyword:
                     return "new";
                 case SyntaxKind.OverrideKeyword:
@@ -1527,7 +1527,7 @@ namespace Microsoft.CodeAnalysis.CSharp
                 case SyntaxKind.NamespaceKeyword:
                     return "namespace";
                 case SyntaxKind.UsingKeyword:
-                    return "using";
+                    return "redsus";
                 case SyntaxKind.ClassKeyword:
                     return "class";
                 case SyntaxKind.StructKeyword:
@@ -1539,11 +1539,11 @@ namespace Microsoft.CodeAnalysis.CSharp
                 case SyntaxKind.DelegateKeyword:
                     return "delegate";
                 case SyntaxKind.CheckedKeyword:
-                    return "checked";
+                    return "crewmate";
                 case SyntaxKind.UncheckedKeyword:
-                    return "unchecked";
+                    return "impostor";
                 case SyntaxKind.UnsafeKeyword:
-                    return "unsafe";
+                    return "sus";
                 case SyntaxKind.OperatorKeyword:
                     return "operator";
                 case SyntaxKind.ImplicitKeyword:

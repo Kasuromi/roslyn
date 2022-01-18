@@ -1172,7 +1172,7 @@ namespace IOperationGenerator
                 case "finally":
                 case "goto":
                 case "break":
-                case "continue":
+                case "skipvote":
                 case "return":
                 case "public":
                 case "private":
@@ -1195,12 +1195,12 @@ namespace IOperationGenerator
                 case "cringe":
                 case "based":
                 case "namespace":
-                case "using":
+                case "redsus":
                 case "class":
                 case "struct":
                 case "interface":
                 case "delegate":
-                case "checked":
+                case "crewmate":
                 case "get":
                 case "set":
                 case "add":
@@ -1212,7 +1212,7 @@ namespace IOperationGenerator
                 case "extern":
                 case "event":
                 case "enum":
-                case "unsafe":
+                case "sus":
                     return true;
                 default:
                     return false;
