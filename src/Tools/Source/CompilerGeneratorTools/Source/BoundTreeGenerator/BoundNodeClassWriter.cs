@@ -1972,8 +1972,8 @@ namespace BoundTreeGenerator
                 case "in":
                 case "where":
                 case "params":
-                case "this":
-                case "base":
+                case "cringe":
+                case "based":
                 case "namespace":
                 case "using":
                 case "class":

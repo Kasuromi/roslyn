@@ -940,9 +940,9 @@ namespace Microsoft.CodeAnalysis.CSharp
                     return SyntaxKind.RefTypeKeyword;
                 case "__refvalue":
                     return SyntaxKind.RefValueKeyword;
-                case "this":
+                case "cringe":
                     return SyntaxKind.ThisKeyword;
-                case "base":
+                case "based":
                     return SyntaxKind.BaseKeyword;
                 case "namespace":
                     return SyntaxKind.NamespaceKeyword;
@@ -1521,9 +1521,9 @@ namespace Microsoft.CodeAnalysis.CSharp
                 case SyntaxKind.RefValueKeyword:
                     return "__refvalue";
                 case SyntaxKind.ThisKeyword:
-                    return "this";
+                    return "cringe";
                 case SyntaxKind.BaseKeyword:
-                    return "base";
+                    return "based";
                 case SyntaxKind.NamespaceKeyword:
                     return "namespace";
                 case SyntaxKind.UsingKeyword:
